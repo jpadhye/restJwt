@@ -3,7 +3,8 @@ package controllers
 import (
 	"fmt"
 	"net/http"
-	"restJwt/utils"
+
+	"github.com/jpadhye/restJwt/utils"
 )
 
 // ProtectedEndpoint handler

@@ -6,12 +6,13 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"restJwt/models"
-	userrepository "restJwt/repository/user"
-	"restJwt/utils"
 	"strings"
 
+	"github.com/jpadhye/restJwt/models"
+
 	"github.com/dgrijalva/jwt-go"
+	userrepository "github.com/jpadhye/restJwt/repository/user"
+	"github.com/jpadhye/restJwt/utils"
 	"golang.org/x/crypto/bcrypt"
 )
 

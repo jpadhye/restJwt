@@ -4,8 +4,10 @@ import (
 	"database/sql"
 	"log"
 	"net/http"
-	"restJwt/controllers"
-	"restJwt/driver"
+
+	"github.com/jpadhye/restJwt/controllers"
+
+	"github.com/jpadhye/restJwt/driver"
 
 	"github.com/gorilla/mux"
 	"github.com/subosito/gotenv"

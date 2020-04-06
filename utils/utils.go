@@ -5,7 +5,8 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"restJwt/models"
+
+	"github.com/jpadhye/restJwt/models"
 
 	"github.com/dgrijalva/jwt-go"
 )

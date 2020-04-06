@@ -2,8 +2,9 @@ package userrepository
 
 import (
 	"database/sql"
-	"restJwt/models"
 	"log"
+
+	"github.com/jpadhye/restJwt/models"
 )
 
 // UserRepository struct
